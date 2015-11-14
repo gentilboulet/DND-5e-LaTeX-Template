@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.2.13)  12 MAR 2015 01:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.29)  14 NOV 2015 22:55
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **main.tex
-(./main.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 79 languages loaded.
-(/usr/share/texmf-dist/tex/latex/base/article.cls
+
+("C:\Users\GentilBoulet\Google Drive\JDR\DD5e\RHoD\DND-5e-LaTeX-Template\main.t
+ex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,45 +32,33 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box26
-\beforetitleunit=\skip43
-\aftertitleunit=\skip44
-\ttl@plus=\dimen103
-\ttl@minus=\dimen104
-\ttl@toksa=\toks14
-\titlewidth=\dimen105
-\titlewidthlast=\dimen106
-\titlewidthfirst=\dimen107
-)
-(/usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count87
 )
-(/usr/share/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count88
-\mult@box=\box27
-\multicol@leftmargin=\dimen108
+\mult@box=\box26
+\multicol@leftmargin=\dimen103
 \c@unbalance=\count89
 \c@collectmore=\count90
 \doublecol@number=\count91
 \multicoltolerance=\count92
 \multicolpretolerance=\count93
-\full@width=\dimen109
-\page@free=\dimen110
-\premulticols=\dimen111
-\postmulticols=\dimen112
-\multicolsep=\skip45
-\multicolbaselineskip=\skip46
-\partial@page=\box28
-\last@line=\box29
-\maxbalancingoverflow=\dimen113
-\mult@rightbox=\box30
-\mult@grightbox=\box31
-\mult@gfirstbox=\box32
-\mult@firstbox=\box33
+\full@width=\dimen104
+\page@free=\dimen105
+\premulticols=\dimen106
+\postmulticols=\dimen107
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
 \@tempa=\box34
 \@tempa=\box35
 \@tempa=\box36
@@ -78,53 +75,62 @@ Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\@tempa=\box50
 \c@columnbadness=\count94
 \c@finalcolumnbadness=\count95
-\last@try=\dimen114
-\multicolovershoot=\dimen115
-\multicolundershoot=\dimen116
-\mult@nat@firstbox=\box51
-\colbreak@box=\box52
-\mc@col@check@num=\count96
+\last@try=\dimen108
+\multicolovershoot=\dimen109
+\multicolundershoot=\dimen110
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\multicol@sort@counter=\count96
 )
-(/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.s
+ty
 Package: fullpage 1999/02/23 1.1 (PWD)
-\FP@margin=\skip47
-)
-(/usr/share/texmf-dist/tex/latex/psnfss/bookman.sty
+\FP@margin=\skip45
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\bookman.sty"
 Package: bookman 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+("C:\Users\GentilBoulet\Google Drive\JDR\DD5e\RHoD\DND-5e-LaTeX-Template\dnd5e.
+sty"
+Package: dnd5e 2015/11/15 v0.01 LaTeX package writing dnd5e styled documents
 
-(/usr/share/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-))
-(/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.s
+ty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen111
+\ttl@minus=\dimen112
+\ttl@toksa=\toks14
+\titlewidth=\dimen113
+\titlewidthlast=\dimen114
+\titlewidthfirst=\dimen115
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\mdframed\mdframed.s
+ty
 Package: mdframed 2013/07/01 1.9b: mdframed
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -133,50 +139,51 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2014/07/20 v5241 L3 programming layer (loader) 
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\x
+parse.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+Package: expl3 2014/09/15 v5423 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2014/07/20 v5241 L3 programming layer (code) 
-L3 Module: l3bootstrap 2014/05/26 v4889 L3 Bootstrap code
-
-(/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code
+.tex
+Package: expl3 2014/09/15 v5423 L3 programming layer (code) 
+L3 Module: l3bootstrap 2014/08/23 v5354 L3 Bootstrap code
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count97
 )
-L3 Module: l3names 2014/06/02 v4993 L3 Namespace for primitives
-L3 Module: l3basics 2014/07/09 v5187 L3 Basic definitions
-L3 Module: l3expan 2014/06/16 v5146 L3 Argument expansion
-L3 Module: l3tl 2014/07/17 v5214 L3 Token lists
-L3 Module: l3str 2014/06/19 v5158 L3 Strings
-L3 Module: l3seq 2014/07/18 v5232 L3 Sequences and stacks
-L3 Module: l3int 2014/07/11 v5197 L3 Integers
+L3 Module: l3names 2014/08/22 v5343 L3 Namespace for primitives
+L3 Module: l3basics 2014/08/24 v5364 L3 Basic definitions
+L3 Module: l3expan 2014/08/22 v5349 L3 Argument expansion
+L3 Module: l3tl 2014/08/24 v5359 L3 Token lists
+L3 Module: l3str 2014/08/24 v5368 L3 Strings
+L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
+L3 Module: l3int 2014/09/14 v5421 L3 Integers
 \c_max_int=\count98
 \l_tmpa_int=\count99
 \l_tmpb_int=\count100
 \g_tmpa_int=\count101
 \g_tmpb_int=\count102
-L3 Module: l3quark 2014/05/26 v4889 L3 Quarks
-L3 Module: l3prg 2014/05/04 v4728 L3 Control structures
+L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
+L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
 \g__prg_map_int=\count103
-L3 Module: l3clist 2014/07/19 v5237 L3 Comma separated lists
-L3 Module: l3token 2014/05/26 v4889 L3 Experimental token manipulation
-L3 Module: l3prop 2014/07/17 v5215 L3 Property lists
-L3 Module: l3msg 2014/05/30 v4943 L3 Messages
-L3 Module: l3file 2014/07/09 v5188 L3 File and I/O operations
+L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
+L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
+L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
+L3 Module: l3msg 2014/08/24 v5358 L3 Messages
+L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
 \l_iow_line_count_int=\count104
 \l__iow_target_count_int=\count105
 \l__iow_current_line_int=\count106
 \l__iow_current_word_int=\count107
 \l__iow_current_indentation_int=\count108
-L3 Module: l3skip 2014/07/17 v5211 L3 Dimensions and skips
-\c_zero_dim=\dimen117
-\c_max_dim=\dimen118
-\l_tmpa_dim=\dimen119
-\l_tmpb_dim=\dimen120
-\g_tmpa_dim=\dimen121
-\g_tmpb_dim=\dimen122
+L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
 \c_zero_skip=\skip48
 \c_max_skip=\skip49
 \l_tmpa_skip=\skip50
@@ -189,10 +196,10 @@ L3 Module: l3skip 2014/07/17 v5211 L3 Dimensions and skips
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-L3 Module: l3keys 2014/06/12 v5121 L3 Key-value interfaces
+L3 Module: l3keys 2014/08/23 v5354 L3 Key-value interfaces
 \g__keyval_level_int=\count109
 \l_keys_choice_int=\count110
-L3 Module: l3fp 2014/07/18 v5223 L3 Floating points
+L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
 \c__fp_leading_shift_int=\count111
 \c__fp_middle_shift_int=\count112
 \c__fp_trailing_shift_int=\count113
@@ -202,21 +209,21 @@ L3 Module: l3fp 2014/07/18 v5223 L3 Floating points
 \c__fp_Bigg_leading_shift_int=\count117
 \c__fp_Bigg_middle_shift_int=\count118
 \c__fp_Bigg_trailing_shift_int=\count119
-L3 Module: l3box 2014/05/31 v4974 L3 Experimental boxes
+L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \c_empty_box=\box53
 \l_tmpa_box=\box54
 \l_tmpb_box=\box55
 \g_tmpa_box=\box56
 \g_tmpb_box=\box57
-L3 Module: l3coffins 2014/05/28 v4899 L3 Coffin code layer
+L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_internal_box=\box58
-\l__coffin_internal_dim=\dimen123
-\l__coffin_offset_x_dim=\dimen124
-\l__coffin_offset_y_dim=\dimen125
-\l__coffin_x_dim=\dimen126
-\l__coffin_y_dim=\dimen127
-\l__coffin_x_prime_dim=\dimen128
-\l__coffin_y_prime_dim=\dimen129
+\l__coffin_internal_dim=\dimen122
+\l__coffin_offset_x_dim=\dimen123
+\l__coffin_offset_y_dim=\dimen124
+\l__coffin_x_dim=\dimen125
+\l__coffin_y_dim=\dimen126
+\l__coffin_x_prime_dim=\dimen127
+\l__coffin_y_prime_dim=\dimen128
 \c_empty_coffin=\box59
 \l__coffin_aligned_coffin=\box60
 \l__coffin_aligned_internal_coffin=\box61
@@ -225,60 +232,62 @@ L3 Module: l3coffins 2014/05/28 v4899 L3 Coffin code layer
 \l__coffin_display_coffin=\box64
 \l__coffin_display_coord_coffin=\box65
 \l__coffin_display_pole_coffin=\box66
-\l__coffin_display_offset_dim=\dimen130
-\l__coffin_display_x_dim=\dimen131
-\l__coffin_display_y_dim=\dimen132
-L3 Module: l3color 2014/04/30 v4712 L3 Experimental color support
-L3 Module: l3candidates 2014/07/18 v5232 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen133
-\l__box_bottom_dim=\dimen134
-\l__box_left_dim=\dimen135
-\l__box_right_dim=\dimen136
-\l__box_top_new_dim=\dimen137
-\l__box_bottom_new_dim=\dimen138
-\l__box_left_new_dim=\dimen139
-\l__box_right_new_dim=\dimen140
+\l__coffin_display_offset_dim=\dimen129
+\l__coffin_display_x_dim=\dimen130
+\l__coffin_display_y_dim=\dimen131
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2014/08/24 v5366 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen132
+\l__box_bottom_dim=\dimen133
+\l__box_left_dim=\dimen134
+\l__box_right_dim=\dimen135
+\l__box_top_new_dim=\dimen136
+\l__box_bottom_new_dim=\dimen137
+\l__box_left_new_dim=\dimen138
+\l__box_right_new_dim=\dimen139
 \l__box_internal_box=\box67
-\l__coffin_bounding_shift_dim=\dimen141
-\l__coffin_left_corner_dim=\dimen142
-\l__coffin_right_corner_dim=\dimen143
-\l__coffin_bottom_corner_dim=\dimen144
-\l__coffin_top_corner_dim=\dimen145
-\l__coffin_scaled_total_height_dim=\dimen146
-\l__coffin_scaled_width_dim=\dimen147
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
 )
-(/usr/share/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
-File: l3unicode-data.def 2014/06/30 v5166 L3 Unicode data
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-
+data.def
+File: l3unicode-data.def 2014/08/12 v5276 L3 Unicode data
 )
-(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2014/07/18 v5232 L3 Experimental driver: PDF mode
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.
+def
+File: l3pdfmode.def 2014/08/24 v5366 L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count120
 ))
-Package: xparse 2014/07/20 v5241 L3 Experimental document command parser
+Package: xparse 2014/09/15 v5423 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count121
 \l__xparse_m_args_int=\count122
 \l__xparse_mandatory_args_int=\count123
 \l__xparse_processor_int=\count124
 \l__xparse_v_nesting_int=\count125
 )
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.s
+ty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count126
-)
-(/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
 Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -287,31 +296,31 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
 \c@abspage=\count127
 Package zref Info: New property: abspage on input line 62.
 )
-(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\needspace\needspace
+.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
-)
-(/usr/share/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count128
 ))
@@ -357,7 +366,8 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \mdf@subsubtitleinneraboveskip@length=\skip92
 \mdf@subsubtitleinnerbelowskip@length=\skip93
 
-(/usr/share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\mdframed\md-frame-0
+.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
 \mdf@frametitlebox=\box68
@@ -401,14 +411,12 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newmdtheoremenv with arg. spec. 'O{} m o m o ' on
-. line 601.
+. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mdtheorem with arg. spec. ' O{} m o m o ' on line
-. 701.
+. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
 \mdf@envdepth=\count131
 \c@mdf@env@i=\count132
@@ -416,74 +424,517 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@zref@counter=\count134
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\GPT@outputbox=\box73
- (./main.aux)
-\openout1 = `main.aux'.
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Try loading font information for T1+pbk on input line 36.
-
-(/usr/share/texmf-dist/tex/latex/psnfss/t1pbk.fd
-File: t1pbk.fd 2001/06/04 font definitions for T1/pbk.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-LaTeX Font Info:    Font shape `T1/pbk/m/n' in size <10> not available
-(Font)              Font shape `T1/pbk/l/n' tried instead on input line 36.
-\AtBeginShipoutBox=\box74
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.s
+ty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen147
+\extrarowheight=\dimen148
+\NC@list=\toks16
+\extratabsurround=\skip121
+\backup@length=\skip122
+)
+\everycr=\toks17
+\minrowclearance=\skip123
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count135
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count136
+\TX@ftn=\toks18
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\t
+ikz.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.
+sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrc
+s.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+util-common.tex
+\pgfutil@everybye=\toks19
+\pgfutil@tempdima=\dimen154
+\pgfutil@tempdimb=\dimen155
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+util-common-lists.tex))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+util-latex.def
+\pgfutil@abb=\box73
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+rcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfc
+ore.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgf
+sys.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+keys.code.tex
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+keysfiltered.code.tex
+\pgfkeys@tmptoks=\toks22
+))
+\pgf@x=\dimen158
+\pgf@y=\dimen159
+\pgf@xa=\dimen160
+\pgf@ya=\dimen161
+\pgf@xb=\dimen162
+\pgf@yb=\dimen163
+\pgf@xc=\dimen164
+\pgf@yc=\dimen165
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count137
+\c@pgf@countb=\count138
+\c@pgf@countc=\count139
+\c@pgf@countd=\count140
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count141
+\pgfsyssoftpath@bigbuffer@items=\count142
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\p
+gfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.
+code.tex
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathc
+alc.code.tex
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathu
+til.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathp
+arser.code.tex
+\pgfmath@dimen=\dimen166
+\pgfmath@count=\count143
+\pgfmath@box=\box74
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.code.tex
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.basic.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.trigonometric.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.random.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.comparison.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.base.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.round.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.misc.code.tex)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+unctions.integerarithmetics.code.tex)))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
+loat.code.tex
+\c@pgfmathroundto@lastzeros=\count144
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen167
+\pgf@picmaxx=\dimen168
+\pgf@picminy=\dimen169
+\pgf@picmaxy=\dimen170
+\pgf@pathminx=\dimen171
+\pgf@pathmaxx=\dimen172
+\pgf@pathminy=\dimen173
+\pgf@pathmaxy=\dimen174
+\pgf@xx=\dimen175
+\pgf@xy=\dimen176
+\pgf@yx=\dimen177
+\pgf@yy=\dimen178
+\pgf@zx=\dimen179
+\pgf@zy=\dimen180
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen181
+\pgf@path@lasty=\dimen182
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen183
+\pgf@shorten@start@additional=\dimen184
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box75
+\pgf@hbox=\box76
+\pgf@layerbox@main=\box77
+\pgf@picture@serial@count=\count145
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen185
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen186
+\pgf@pt@y=\dimen187
+\pgf@pt@temp=\dimen188
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen189
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen190
+\pgf@sys@shading@range@num=\count146
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box78
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pg
+fcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmo
+duleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box79
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmo
+duleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\p
+gfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen191
+\pgf@nodesepend=\dimen192
+)
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\p
+gfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffo
+r.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfke
+ys.sty
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+keys.code.tex))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.st
+y
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.
+code.tex))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
+for.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.
+code.tex)
+\pgffor@iter=\dimen193
+\pgffor@skip=\dimen194
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
+))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer
+\tikz\tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgf
+libraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count147
+\pgfplotmarksize=\dimen195
+)
+\tikz@lastx=\dimen196
+\tikz@lasty=\dimen197
+\tikz@lastxsaved=\dimen198
+\tikz@lastysaved=\dimen199
+\tikzleveldistance=\dimen200
+\tikzsiblingdistance=\dimen201
+\tikz@figbox=\box80
+\tikz@figbox@bg=\box81
+\tikz@tempbox=\box82
+\tikz@tempbox@bg=\box83
+\tikztreelevel=\count148
+\tikznumberofchildren=\count149
+\tikznumberofcurrentchild=\count150
+\tikz@fig@count=\count151
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmo
+dulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count152
+\pgfmatrixcurrentcolumn=\count153
+\pgf@matrix@numberofcolumns=\count154
+)
+\tikz@expandcount=\count155
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer
+\tikz\libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\keycommand\keycomma
+nd.sty
+Package: keycommand 2010/04/27 v3.1415 - key-value interface for commands and e
+nvironments in LaTeX
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+\XKV@depth=\count156
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+)))
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\latex\calculator\calculat
+or.sty
+Package: calculator 2014/02/20 v.2.0
+Normal \dimen register pool exhausted, switching to extended pool.
+\cctr@lengtha=\dimen256
+\cctr@lengthb=\dimen257
+\cctr@epsilon=\dimen258
+)
+\GPT@outputbox=\box84
+)
+("C:\Users\GentilBoulet\Google Drive\JDR\DD5e\RHoD\DND-5e-LaTeX-Template\main.a
+ux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for OT1+pbk on input line 16.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1pbk.fd"
+File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
+)
+LaTeX Font Info:    Font shape `OT1/pbk/m/n' in size <10> not available
+(Font)              Font shape `OT1/pbk/l/n' tried instead on input line 16.
+\AtBeginShipoutBox=\box85
+
+(C:\Users\GentilBoulet\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
-\scratchdimen=\dimen148
-\scratchbox=\box75
-\nofMPsegments=\count136
-\nofMParguments=\count137
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count138
-\MPscratchDim=\dimen149
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
-\everyMPtoPDFconversion=\toks17
-)
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <10> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <24.88> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 39.
-LaTeX Font Info:    Font shape `T1/pbk/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/pbk/l/sc' tried instead on input line 41.
-LaTeX Font Info:    Font shape `T1/pbk/bx/sc' in size <10> not available
-(Font)              Font shape `T1/pbk/b/sc' tried instead on input line 44.
-LaTeX Font Info:    Font shape `T1/pbk/b/sc' in size <10> not available
-(Font)              Font shape `T1/pbk/db/sc' tried instead on input line 44.
- [1
+\scratchcounter=\count157
+\scratchdimen=\dimen259
+\scratchbox=\box86
+\nofMPsegments=\count158
+\nofMParguments=\count159
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count160
+\MPscratchDim=\dimen260
+\MPnumerator=\count161
+\makeMPintoPDFobject=\count162
+\everyMPtoPDFconversion=\toks34
+) ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 18.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux) ) 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ppl.fd"
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Font shape `OT1/pbk/m/sc' in size <10> not available
+(Font)              Font shape `OT1/pbk/l/sc' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/pbk/m/sc' in size <24.88> not available
+(Font)              Font shape `OT1/pbk/l/sc' tried instead on input line 20.
+LaTeX Font Info:    Font shape `OT1/pbk/m/sc' in size <14.4> not available
+(Font)              Font shape `OT1/pbk/l/sc' tried instead on input line 22.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 23.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OT1/pbk/bx/sc' in size <10> not available
+(Font)              Font shape `OT1/pbk/b/sc' tried instead on input line 25.
+LaTeX Font Info:    Font shape `OT1/pbk/b/sc' in size <10> not available
+(Font)              Font shape `OT1/pbk/db/sc' tried instead on input line 25.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 36--38
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 44.
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 39--53
+[]
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 39--53
+[] 
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 53--61
+[] 
+ []
+
+
+Overfull \hbox (0.4pt too wide) in paragraph at lines 62--63
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+|\OT1/pbk/l/sc/14.4 Actions|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+|\OT1/pbk/l/sc/14.4 Legendary|
+ []
+
+LaTeX Font Info:    Font shape `OT1/pbk/bx/sc' in size <14.4> not available
+(Font)              Font shape `OT1/pbk/b/sc' tried instead on input line 91.
+LaTeX Font Info:    Font shape `OT1/pbk/b/sc' in size <14.4> not available
+(Font)              Font shape `OT1/pbk/db/sc' tried instead on input line 91.
+[1
+
+{C:/Users/GentilBoulet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3]
+("C:\Users\GentilBoulet\Google Drive\JDR\DD5e\RHoD\DND-5e-LaTeX-Template\main.a
+ux") ) 
 Here is how much of TeX's memory you used:
- 8873 strings out of 493108
- 164228 string characters out of 6140725
- 320007 words of memory out of 5000000
- 12288 multiletter control sequences out of 15000+600000
- 15256 words of font info for 27 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,5n,39p,10420b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/sh
-are/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/u
-rw/bookman/ubkd8a.pfb></usr/share/texmf-dist/fonts/type1/urw/bookman/ubkl8a.pfb
->
-Output written on main.pdf (2 pages, 26947 bytes).
+ 19568 strings out of 493921
+ 394175 string characters out of 3144855
+ 540159 words of memory out of 3000000
+ 22555 multiletter control sequences out of 15000+200000
+ 20630 words of font info for 37 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 62i,9n,56p,10424b,758s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/urw/bookman/ubkd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+/bookman/ubkl8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino
+/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (3 pages, 124467 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

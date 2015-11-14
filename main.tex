@@ -1,135 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%
-% DND 5e LaTeX Template
-% Created by Evan Bergeron
-% March 2015
+% DND 5e LaTeX Template example
+% Created by GentilBoulet
+% Nov 22015
 %%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[10pt]{article}
-\usepackage{titlesec}       % Used to adjust (sub)section colors and fonts
+
 \usepackage{lipsum}         % Filler text
 \usepackage{multicol}       % Two cols
 \usepackage[cm]{fullpage}   % Small margins
 \setlength{\columnsep}{1cm}
 \usepackage{bookman}        % Closest built-in font I could find
-\usepackage[T1]{fontenc}
-\usepackage{mdframed}       % Used for green boxes
-\usepackage[table]{xcolor}
-\usepackage{tabularx}
-\usepackage{tikz}
-\usepackage{keycommand}
-
-% Define colors, sampled from the books.
-\usepackage{color}
-\definecolor{bgtan}{rgb}{0.97, 0.95, 0.9}
-\definecolor{titlered}{rgb}{0.38, 0.14, 0.09}
-\definecolor{undergold}{rgb}{0.81, 0.75, 0.53}
-\definecolor{commentgreen}{rgb}{0.88, 0.90, 0.75}
-\definecolor{monsterbg}{rgb}{0.94, 0.86, 0.71}
-\pagecolor{bgtan}
-
-\newcommand{\fancyhrule}{
-\noindent
-  \begin{tikzpicture}[]
-    \draw [titlered, fill=titlered] (0, 0) --(0,0.1) -- (\textwidth, 0.08);
-  \end{tikzpicture}
-}
-
-% Either hilariously, or infuriatingly, the \ifcommandkey
-% implementation is buggy. Here is a re-implementation
-% from tex.stackexchange.
-\begingroup
-  \makeatletter
-  \catcode`\/=8 %
-  \@firstofone
-    {
-      \endgroup
-      \renewcommand{\ifcommandkey}[1]{%
-        \csname @\expandafter \expandafter \expandafter
-        \expandafter \expandafter \expandafter  \expandafter
-        \kcmd@nbk \commandkey {#1}//{first}{second}//oftwo\endcsname
-      }
-   }
-
-% Green comment box definition
-\newenvironment{commentbox}[1]
-{\fontfamily{lmss}\selectfont\begin{mdframed}[frametitle={#1},
-                                              frametitlefont=\scshape\bfseries,
-                                              linecolor=commentgreen,
-                                              backgroundcolor=commentgreen]}
-{\end{mdframed}}
-
-% Monster environment
-\newenvironment{monster}[2]
-{\begin{mdframed}[frametitle={#1},
-  frametitlefont=\scshape\bfseries\color{titlered}\Large,
-  linecolor=titlered,
-  backgroundcolor=monsterbg,
-  topline=true,
-  bottomline=true,
-  leftline=false,
-  rightline=false,
-  linewidth=3.0pt,
-  innertopmargin=0.75pt,
-]
-\textit{#2}\\
-\fancyhrule
-}
-{\end{mdframed}}
-
-% Font environment
-\newenvironment{lmss}{\fontfamily{lmss}\selectfont}{}
-
-% Adjust section and subsection colors and font
-\titleformat{\section}
-{\color{titlered}\normalfont\scshape\Huge}{\thesection}{1em}{}
-\titleformat{\subsection}
-{\color{titlered}\normalfont\scshape\Large}{\thesubsection}{1em}{}[{\color{undergold}\titlerule[1pt]\color{black}}]
-
-% Define Monster subsection header style
-\newcommand{\monstersection}[1]{\subsubsection*{#1}}
-\titlespacing*{\subsubsection}{0pt}{*0.5}{5pt}
-\titleformat{\subsubsection}
-{\color{titlered}\normalfont\scshape\Large}{\thesubsection}{1em}{}[{\color{titlered}\titlerule[0.5pt]\color{black}}]
-
-% TODO delete this
-\newkeycommand\monsterenv[armorclass=10][1]{%
-  #1 has armor class \commandkey{armorclass}.
-}
-
-%
-% Macros for use within the monster environment
-%
-\newkeycommand\basics[armorclass=0, hitpoints=0, speed=0]{%
-  \textbf{Armor Class} \commandkey{armorclass}\\
-  \textbf{Hit Points} \commandkey{hitpoints}\\
-  \textbf{Speed} \commandkey{speed}\\
-}
-
-\newkeycommand\details[skills=,
-                      damageimmunities=,
-                      savingthrows=,
-                      conditionimmunities=,
-                      damageresistances=,
-                      damagevulnerabilities=,
-                      senses=-,
-                      languages=-,
-                      challenge=0]{%
-  \ifcommandkey{savingthrows}
-    {\textbf{Saving Throws} \commandkey{savingthrows}\\}{}
-  \ifcommandkey{skills}
-    {\textbf{Skills} \commandkey{skills}\\}{}
-  \ifcommandkey{damagevulnerabilities}
-    {\textbf{Damage Vulnerabilities} \commandkey{damagevulnerabilities}\\}{}
-  \ifcommandkey{damageresistances}
-    {\textbf{Damage Resistances} \commandkey{damageresistances}\\}{}
-  \ifcommandkey{damageimmunities}
-    {\textbf{Damage Immunities} \commandkey{damageimmunities}\\}{}
-  \ifcommandkey{conditionimmunities}
-    {\textbf{Condition Immunities} \commandkey{conditionimmunities}\\}{}
-  % These traits appear to always be present.
-  {\textbf{Senses} \commandkey{senses}\\}
-  {\textbf{Languages} \commandkey{languages}\\}
-  {\textbf{Challenge} \commandkey{challenge}\\}
-}
+\usepackage{dnd5e}
 
 % Start document
 \begin{document}
@@ -144,6 +25,7 @@
     \end{commentbox}
     \lipsum[3]
     \noindent
+    
     \begin{lmss} % Switch font
     \rowcolors{1}{bgtan}{commentgreen} % Alternate colors
     \begin{tabularx}{\linewidth}{XX}
@@ -160,16 +42,52 @@
         hitpoints  = 16 (3d8 + 3),
         speed      = 50 ft
       ]
+      \fancyhrule      
+      \stats[%
+        str = 3,
+        dex = 6,
+        con = 9,
+        int = 12,
+        wis = 15,
+        cha = 18,
+        ]
       \fancyhrule
       \details[%
         % If you want to use commas in these sections, enclose the
         % description in braces.
         % I'm so sorry.
         languages = {Common Lisp, Erlang},
+        challenge = 1/8 (25 XP),
       ]
       \fancyhrule
       \monstersection{Actions}
-      \lipsum[1]
+      \monsteraction{KungFoo}{The foo monster makes two attackes with its kungfu}
+      \monsteraction{KungFoo2}{The foo monster makes two attackes with its kungfu}
+      \monsteraction{KungFoo3}{The foo monster makes two attackes with its kungfu}
+      \monsteraction{Unarmed Strike}{\textit{Melee Weapon Attack:} +4 to hit, reach 5ft., one target.\textit{Hit:} 6(1d8+2) blundeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack.}
+      \monsteraction{Spellcasting.}{The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit
+      	with spell attacks). The arch mage can cast disguise self and
+      	invisibility at will and has the following wizard spells prepared:\\
+      	\vspace{1ex}
+      	Cantrips (at will):.fire bolt, light, mage hand, prestidigitation,
+      	shocking grasp\\
+      	1st level (4 slots): detect magic, identify, mage armor*,
+      	magic missile\\
+      	2nd level (3 slots): detect thoughts, mirror image, misty step\\
+      	3rd level (3 slots): counterspeii,Jly, lightning bolt\\
+      	4th level (3 slots): banishment, fire shield, stoneskin*\\
+      	5th level (3 slots): cone of cold, scrying, wall of force\\
+      	6th level .(1 slot): globe of invulnerability\\
+      	7th level (l slot): teleport\\
+      	8th level (l slot): mind blank*\\
+      	9th level (l slot): time stop\\
+      	\vspace{1ex}
+      	{}* The archmage casts these spells on itself before combat.}
+      
+     \monstersection{Legendary}
+     The foo monster can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo monster regains spent legendary actions at the start of its turn.\\ \vspace{1ex}
+     \monsteraction{Move}{The foo monster moves up its speed without provoking opportunities attacks}
+     \monsteraction{Unarmed Strike}{The foo monster makes one unarmed strike}
     \end{monster}
     \lipsum
 % End document

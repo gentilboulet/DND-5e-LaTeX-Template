@@ -25,6 +25,8 @@
 \definecolor{undergold}{rgb}{0.81, 0.75, 0.53}
 \definecolor{commentgreen}{rgb}{0.88, 0.90, 0.75}
 \definecolor{monsterbg}{rgb}{0.94, 0.86, 0.71}
+\definecolor{readaloudbrown}{rgb}{0.35, 0.26, 0.25}
+\definecolor{readaloudyellow}{rgb}{0.96, 0.94, 0.83}
 \pagecolor{bgtan}
 
 \newcommand{\fancyhrule}{
@@ -50,6 +52,8 @@
       }
    }
 
+\titlespacing*{\subsubsection}{0pt}{1ex}{5pt}
+
 % Green comment box definition
 \newenvironment{commentbox}[1]
 {\fontfamily{lmss}\selectfont\begin{mdframed}[frametitle={#1},
@@ -57,6 +61,19 @@
                                               linecolor=commentgreen,
                                               backgroundcolor=commentgreen]}
 {\end{mdframed}}
+
+\newenvironment{readaloud}[0]
+{
+	\fontfamily{lmss}\selectfont
+	\begin{mdframed}[
+		linecolor=readaloudbrown,
+		rightline=true,		
+		leftline=true,
+		topline=false,
+		bottomline=false,	    
+		backgroundcolor=readaloudyellow]
+}{\end{mdframed}}
+
 
 % Monster environment
 \newenvironment{monster}[2]
@@ -70,6 +87,7 @@
   rightline=false,
   linewidth=3.0pt,
   innertopmargin=0.75pt,
+  nobreak=true
 ]
 \textit{#2}\\
 \fancyhrule
@@ -87,12 +105,11 @@
 
 % Define Monster subsection header style
 \newcommand{\monstersection}[1]{\subsubsection*{#1}}
-\titlespacing*{\subsubsection}{0pt}{*0.5}{5pt}
 \titleformat{\subsubsection}
 {\color{titlered}\normalfont\scshape\Large}{\thesubsection}{1em}{}[{\color{titlered}\titlerule[0.5pt]\color{black}}]
 
 % Define Monster Actions style 
-\newcommand{\monsteraction}[2]{\textbf{#1. }#2 \vspace{1ex}\\}
+\newcommand{\monsteraction}[2]{\textbf{#1. }#2 \\}
 
 %
 % Macros for use within the monster environment
@@ -134,8 +151,7 @@
 	\DIVIDE{\chaval}{2}{\chaval}
 	\FLOOR{\chaval}{\chaval}
 	
-	\centering
-	\vspace{1ex}
+	\begin{center}
 	\begin{tabular}{cccccc}
 		\textbf{STR} & \textbf{DEX} & \textbf{CON} & \textbf{INT} & \textbf{WIS} & \textbf{CHA} \\
 		\commandkey{str} (\strval)&
@@ -145,8 +161,8 @@
 		\commandkey{wis} (\wisval)&
 		\commandkey{cha} (\chaval)\\
 	\end{tabular}
-	\vspace{1ex}
-	\raggedright
+	\end{center}
+	\noindent
 }
 
 \newkeycommand\details[skills=,
@@ -155,8 +171,8 @@
                       conditionimmunities=,
                       damageresistances=,
                       damagevulnerabilities=,
-                      senses=-,
-                      languages=-,
+                      senses={---},
+                      languages={---},
                       challenge=0]{%
   \ifcommandkey{savingthrows}
     {\textbf{Saving Throws} \commandkey{savingthrows}\\}{}

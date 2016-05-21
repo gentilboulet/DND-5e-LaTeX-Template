@@ -23,8 +23,9 @@
     \begin{commentbox}{Neat Green Box!}
         \lipsum[1]
     \end{commentbox}
-    \lipsum[3]
+    
     \noindent
+    \lipsum[2-3]
     
     \begin{lmss} % Switch font
     \rowcolors{1}{bgtan}{commentgreen} % Alternate colors
@@ -35,6 +36,8 @@
         Some value  & Some value
     \end{tabularx}
     \end{lmss}
+    
+    \lipsum[2-3]
 
     \begin{monster}{Monster Foo}{Small metasyntatic variable (golbinoid), neutral evil}
       \basics[%
@@ -63,33 +66,48 @@
       \monstersection{Actions}
       \monsteraction{KungFoo}{The foo monster makes two attackes with its kungfu}
       \monsteraction{KungFoo2}{The foo monster makes two attackes with its kungfu}
-      \monsteraction{KungFoo3}{The foo monster makes two attackes with its kungfu}
-      \monsteraction{Unarmed Strike}{\textit{Melee Weapon Attack:} +4 to hit, reach 5ft., one target.\textit{Hit:} 6(1d8+2) blundeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack.}
-      \monsteraction{Spellcasting.}{The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit
-      	with spell attacks). The arch mage can cast disguise self and
-      	invisibility at will and has the following wizard spells prepared:\\
-      	\vspace{1ex}
-      	Cantrips (at will):.fire bolt, light, mage hand, prestidigitation,
-      	shocking grasp\\
-      	1st level (4 slots): detect magic, identify, mage armor*,
-      	magic missile\\
-      	2nd level (3 slots): detect thoughts, mirror image, misty step\\
-      	3rd level (3 slots): counterspeii,Jly, lightning bolt\\
-      	4th level (3 slots): banishment, fire shield, stoneskin*\\
-      	5th level (3 slots): cone of cold, scrying, wall of force\\
-      	6th level .(1 slot): globe of invulnerability\\
-      	7th level (l slot): teleport\\
-      	8th level (l slot): mind blank*\\
-      	9th level (l slot): time stop\\
-      	\vspace{1ex}
-      	{}* The archmage casts these spells on itself before combat.}
-      
+      \monsteraction{Unarmed Strike}{\textit{Melee Weapon Attack:} +4 to hit, reach 5ft., one target.\textit{Hit:} 6 (1d8+2) blundeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack.}
      \monstersection{Legendary}
-     The foo monster can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo monster regains spent legendary actions at the start of its turn.\\ \vspace{1ex}
+     The foo monster can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo monster regains spent legendary actions at the start of its turn.\\
      \monsteraction{Move}{The foo monster moves up its speed without provoking opportunities attacks}
      \monsteraction{Unarmed Strike}{The foo monster makes one unarmed strike}
     \end{monster}
     \lipsum
+	\end{multicols}
+
+    \begin{monster2}{Monster Bar'Bar}{Small metasyntatic variable (golbinoid), neutral evil}
+       	\basics[%
+       	armorclass = 12,
+       	hitpoints  = 16 (3d8 + 3),
+       	speed      = 50 ft
+       	]
+       	\fancyhrule      
+       	\stats[%
+       	str = 3,
+       	dex = 6,
+       	con = 9,
+       	int = 12,
+       	wis = 15,
+       	cha = 18,
+       	]
+       	\fancyhrule
+       	\details[%
+       	% If you want to use commas in these sections, enclose the
+       	% description in braces.
+       	% I'm so sorry.
+       	languages = {Common Lisp, Erlang},
+       	challenge = 1/8 (25 XP),
+       	]
+       	\fancyhrule
+       	\monstersection{Actions}
+       	\monsteraction{KungFoo}{The foo monster makes two attackes with its kungfu}
+       	\monsteraction{KungFoo2}{The foo monster makes two attackes with its kungfu}
+       	\monsteraction{Unarmed Strike}{\textit{Melee Weapon Attack:} +4 to hit, reach 5ft., one target.\textit{Hit:} 6 (1d8+2) blundeoning damage plus 9 (2d8) psychic damage. This is a magic weapon attack.}
+       	\monstersection{Legendary}
+       	The foo monster can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The foo monster regains spent legendary actions at the start of its turn.\\
+       	\monsteraction{Move}{The foo monster moves up its speed without provoking opportunities attacks}
+       	\monsteraction{Unarmed Strike}{The foo monster makes one unarmed strike}
+   	\end{monster2}
+    
 % End document
-\end{multicols}
 \end{document}

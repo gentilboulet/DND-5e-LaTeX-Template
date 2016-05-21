@@ -17,6 +17,7 @@
 \RequirePackage{tikz}
 \RequirePackage{keycommand}
 \RequirePackage{calculator}
+\RequirePackage{multicol}       % Two cols
 
 % Define colors, sampled from the books.
 \usepackage{color}
@@ -30,69 +31,94 @@
 \pagecolor{bgtan}
 
 \newcommand{\fancyhrule}{
-\noindent
-  \begin{tikzpicture}[]
-    \draw [titlered, fill=titlered] (0, 0) --(0,0.1) -- (\textwidth, 0.08);
-  \end{tikzpicture}
+	\noindent
+	\begin{tikzpicture}[]
+	\draw [titlered, fill=titlered] (0, 0) --(0,0.1) -- (\linewidth, 0.08);
+	\end{tikzpicture}
 }
 
 % Either hilariously, or infuriatingly, the \ifcommandkey
 % implementation is buggy. Here is a re-implementation
 % from tex.stackexchange.
 \begingroup
-  \makeatletter
-  \catcode`\/=8 %
-  \@firstofone
-    {
-      \endgroup
-      \renewcommand{\ifcommandkey}[1]{%
-        \csname @\expandafter \expandafter \expandafter
-        \expandafter \expandafter \expandafter  \expandafter
-        \kcmd@nbk \commandkey {#1}//{first}{second}//oftwo\endcsname
-      }
-   }
+\makeatletter
+\catcode`\/=8 %
+\@firstofone
+{
+	\endgroup
+	\renewcommand{\ifcommandkey}[1]{%
+		\csname @\expandafter \expandafter \expandafter
+		\expandafter \expandafter \expandafter  \expandafter
+		\kcmd@nbk \commandkey {#1}//{first}{second}//oftwo\endcsname
+	}
+}
 
 \titlespacing*{\subsubsection}{0pt}{1ex}{5pt}
 
 % Green comment box definition
 \newenvironment{commentbox}[1]
 {\fontfamily{lmss}\selectfont\begin{mdframed}[frametitle={#1},
-                                              frametitlefont=\scshape\bfseries,
-                                              linecolor=commentgreen,
-                                              backgroundcolor=commentgreen]}
-{\end{mdframed}}
+		frametitlefont=\scshape\bfseries,
+		linecolor=commentgreen,
+		backgroundcolor=commentgreen]}
+	{\end{mdframed}}
+
 
 \newenvironment{readaloud}[0]
-{
-	\fontfamily{lmss}\selectfont
+{\fontfamily{lmss}\selectfont
 	\begin{mdframed}[
 		linecolor=readaloudbrown,
 		rightline=true,		
 		leftline=true,
 		topline=false,
 		bottomline=false,	    
-		backgroundcolor=readaloudyellow]
-}{\end{mdframed}}
+		backgroundcolor=readaloudyellow]}
+	{\end{mdframed}}
 
 
 % Monster environment
 \newenvironment{monster}[2]
 {\begin{mdframed}[frametitle={#1},
-  frametitlefont=\scshape\bfseries\color{titlered}\Large,
-  linecolor=titlered,
-  backgroundcolor=monsterbg,
-  topline=true,
-  bottomline=true,
-  leftline=false,
-  rightline=false,
-  linewidth=3.0pt,
-  innertopmargin=0.75pt,
-  nobreak=true
-]
-\textit{#2}\\
-\fancyhrule
+		frametitlefont=\scshape\bfseries\color{titlered}\Large,
+		linecolor=titlered,
+		backgroundcolor=monsterbg,
+		topline=true,
+		bottomline=true,
+		leftline=false,
+		rightline=false,
+		linewidth=3.0pt,
+		innertopmargin=0.75pt,
+		nobreak=true
+		]
+		\textit{#2}\\
+		\fancyhrule
+	}
+	{\end{mdframed}}
+
+% Monster environment
+\newenvironment{monster2}[2]
+{
+	\begin{mdframed}[frametitle={#1},
+		frametitlefont=\scshape\bfseries\color{titlered}\Large,
+		linecolor=titlered,
+		backgroundcolor=monsterbg,
+		topline=true,
+		bottomline=true,
+		leftline=false,
+		rightline=false,
+		linewidth=3.0pt,
+		innertopmargin=0.75pt,
+		nobreak=true
+		]
+		\begin{multicols}{2}
+			\textit{#2}\\
+			\fancyhrule
+			\noindent
+		}
+		{ %end monster2
+		\end{multicols}
+	\end{mdframed}
 }
-{\end{mdframed}}
 
 % Font environment
 \newenvironment{lmss}{\fontfamily{lmss}\selectfont}{}
@@ -100,24 +126,32 @@
 % Adjust section and subsection colors and font
 \titleformat{\section}
 {\color{titlered}\normalfont\scshape\Huge}{\thesection}{1em}{}
+
 \titleformat{\subsection}
 {\color{titlered}\normalfont\scshape\Large}{\thesubsection}{1em}{}[{\color{undergold}\titlerule[1pt]\color{black}}]
 
+
 % Define Monster subsection header style
 \newcommand{\monstersection}[1]{\subsubsection*{#1}}
+
 \titleformat{\subsubsection}
-{\color{titlered}\normalfont\scshape\Large}{\thesubsection}{1em}{}[{\color{titlered}\titlerule[0.5pt]\color{black}}]
+{\color{titlered}\normalfont\scshape\large}{\thesubsubsection}{1em}{}[{\color{titlered}\titlerule[0.5pt]\color{black}}]
+
+\titlespacing*{\subsubsection}{0pt}{0\baselineskip}{0.3\baselineskip}
+
 
 % Define Monster Actions style 
 \newcommand{\monsteraction}[2]{\textbf{#1. }#2 \\}
+\newcommand{\monstertext}[1]{#1 \\}
 
 %
 % Macros for use within the monster environment
 %
 \newkeycommand\basics[armorclass=0, hitpoints=0, speed=0]{%
-  \textbf{Armor Class} \commandkey{armorclass}\\
-  \textbf{Hit Points} \commandkey{hitpoints}\\
-  \textbf{Speed} \commandkey{speed}\\
+	\noindent
+	\textbf{Armor Class} \commandkey{armorclass}\\
+	\textbf{Hit Points} \commandkey{hitpoints}\\
+	\textbf{Speed} \commandkey{speed}\\
 }
 
 \newkeycommand\stats[str=0, dex=0, con=0, int=0, wis=0, cha=0]{%
@@ -150,46 +184,49 @@
 	\SUBTRACT{\chaval}{10}{\chaval}
 	\DIVIDE{\chaval}{2}{\chaval}
 	\FLOOR{\chaval}{\chaval}
-	
-	\begin{center}
-	\begin{tabular}{cccccc}
-		\textbf{STR} & \textbf{DEX} & \textbf{CON} & \textbf{INT} & \textbf{WIS} & \textbf{CHA} \\
-		\commandkey{str} (\strval)&
-		\commandkey{dex} (\dexval)&
-		\commandkey{con} (\conval)&
-		\commandkey{int} (\intval)&
-		\commandkey{wis} (\wisval)&
-		\commandkey{cha} (\chaval)\\
-	\end{tabular}
-	\end{center}
 	\noindent
+	\begin{center}
+		\vspace{-1ex}
+		\begin{tabular}{cccccc}
+			\textbf{STR} & \textbf{DEX} & \textbf{CON} & \textbf{INT} & \textbf{WIS} & \textbf{CHA} \\
+			\commandkey{str} (\strval)&
+			\commandkey{dex} (\dexval)&
+			\commandkey{con} (\conval)&
+			\commandkey{int} (\intval)&
+			\commandkey{wis} (\wisval)&
+			\commandkey{cha} (\chaval)\\
+		\end{tabular}
+		\vspace{-1ex}	
+	\end{center}
+	
 }
 
 \newkeycommand\details[skills=,
-                      damageimmunities=,
-                      savingthrows=,
-                      conditionimmunities=,
-                      damageresistances=,
-                      damagevulnerabilities=,
-                      senses={---},
-                      languages={---},
-                      challenge=0]{%
-  \ifcommandkey{savingthrows}
-    {\textbf{Saving Throws} \commandkey{savingthrows}\\}{}
-  \ifcommandkey{skills}
-    {\textbf{Skills} \commandkey{skills}\\}{}
-  \ifcommandkey{damagevulnerabilities}
-    {\textbf{Damage Vulnerabilities} \commandkey{damagevulnerabilities}\\}{}
-  \ifcommandkey{damageresistances}
-    {\textbf{Damage Resistances} \commandkey{damageresistances}\\}{}
-  \ifcommandkey{damageimmunities}
-    {\textbf{Damage Immunities} \commandkey{damageimmunities}\\}{}
-  \ifcommandkey{conditionimmunities}
-    {\textbf{Condition Immunities} \commandkey{conditionimmunities}\\}{}
-  % These traits appear to always be present.
-  {\textbf{Senses} \commandkey{senses}\\}
-  {\textbf{Languages} \commandkey{languages}\\}
-  {\textbf{Challenge} \commandkey{challenge}\\}
+damageimmunities=,
+savingthrows=,
+conditionimmunities=,
+damageresistances=,
+damagevulnerabilities=,
+senses={---},
+languages={---},
+challenge=0]{%
+	\noindent
+	\ifcommandkey{savingthrows}
+	{\textbf{Saving Throws} \commandkey{savingthrows}\\}{}
+	\ifcommandkey{skills}
+	{\textbf{Skills} \commandkey{skills}\\}{}
+	\ifcommandkey{damagevulnerabilities}
+	{\textbf{Damage Vulnerabilities} \commandkey{damagevulnerabilities}\\}{}
+	\ifcommandkey{damageresistances}
+	{\textbf{Damage Resistances} \commandkey{damageresistances}\\}{}
+	\ifcommandkey{damageimmunities}
+	{\textbf{Damage Immunities} \commandkey{damageimmunities}\\}{}
+	\ifcommandkey{conditionimmunities}
+	{\textbf{Condition Immunities} \commandkey{conditionimmunities}\\}{}
+	% These traits appear to always be present.
+	{\textbf{Senses} \commandkey{senses}\\}
+	{\textbf{Languages} \commandkey{languages}\\}
+	{\textbf{Challenge} \commandkey{challenge}\\}
 }
 
 \endinput
